@@ -19,5 +19,9 @@ em strong {
 }
 
 #banner {
-    
+    width: 100%;
+}
+
+.items {
+    font-style: italic;
 }
