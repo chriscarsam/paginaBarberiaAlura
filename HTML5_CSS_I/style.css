@@ -2,13 +2,13 @@ body {
     background: white;
 }
 .principal {
-    background: #cccccc;
-    margin: 15px;
-    padding: 15px;
+    background: #cccccc;   
+    padding: 20px;
 }
 
 #banner {
     width: 100%;
+
 }
 
 h1 {
@@ -29,8 +29,7 @@ em strong {
 
 .diferenciales {
     background: white;
-    margin: 15px;
-    padding: 15px;
+    padding: 30px;
 }
 
 h2 {
@@ -39,4 +38,15 @@ h2 {
 
 .items {
     font-style: italic;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-left: 15%;
+}
+
+.imagenDiferenciales {
+    width: 50%;
 }
