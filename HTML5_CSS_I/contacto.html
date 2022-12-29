@@ -35,18 +35,27 @@
             <textarea id="mensaje" cols="70" rows="10" class="input-padron"></textarea>
 
             <div>
-                <p class="test" id="test">Cómo le gustaría que lo contactemos?</p>
+                <p>Cómo le gustaría que lo contactemos?</p>
     
                 <label for="radioEmail"><input type="radio" name="contacto" value="email" id="radioEmail">Email</label>                
     
                 <label for="radioTelefono"><input type="radio" name="contacto" value="telefono" id="radioTelefono">Teléfono</label>                
     
-                <label for="radioWhatsapp"><input type="radio" name="contacto" value="whatsapp" id="radioWhatsapp">WhatsApp</label>                
+                <label for="radioWhatsapp"><input type="radio" name="contacto" value="whatsapp" id="radioWhatsapp">WhatsApp</label>    
                 
+            </div>
+            <div>
+                <p>En cuál horario prefiere ser atendido?</p>
+                <select>
+                    <option value="">Mañana</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noche</option>
+                </select>           
+            </div>
+
                 <label class="checkbox"> <input type="checkbox"> Le gustaría recibir novedades de la Barbería Alura?</label>
     
                 <input type="submit" value="Enviar Formulario">
-            </div>
 
            </form>
         </main> 
