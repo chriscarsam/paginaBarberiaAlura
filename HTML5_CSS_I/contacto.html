@@ -23,30 +23,27 @@
         <main>
            <form>
             <label for="nombreApellido">Nombre y Apellido</label>
-            <input type="text" id="nombreApellido">
+            <input type="text" id="nombreApellido" class="input-padron">
             
             <label for="correoElectronico">Correo Electrónico</label>
-            <input type="text" id="correoElectronico">
+            <input type="text" id="correoElectronico" class="input-padron">
             
             <label for="telefono">Teléfono</label>
-            <input type="text" id="telefono">
+            <input type="text" id="telefono" class="input-padron">
             
             <label for="mensaje">Mensaje</label>
-            <textarea id="mensaje" cols="70" rows="10"></textarea>
+            <textarea id="mensaje" cols="70" rows="10" class="input-padron"></textarea>
 
             <div>
                 <p>Cómo le gustaría que lo contactemos?</p>
     
-                <label for="radioEmail">Email</label>
-                <input type="radio" name="contacto" value="email" id="radioEmail">
+                <label for="radioEmail"><input type="radio" name="contacto" value="email" id="radioEmail">Email</label>                
     
-                <label for="radioTelefono">Teléfono</label>
-                <input type="radio" name="contacto" value="telefono" id="radioTelefono">
+                <label for="radioTelefono"><input type="radio" name="contacto" value="telefono" id="radioTelefono">Teléfono</label>                
     
-                <label for="radioWhatsapp">WhatsApp</label>
-                <input type="radio" name="contacto" value="whatsapp" id="radioWhatsapp">
+                <label for="radioWhatsapp"><input type="radio" name="contacto" value="whatsapp" id="radioWhatsapp">WhatsApp</label>                
                 
-                <label> <input type="checkbox"> Le gustaría recibir novedades de la Barbería Alura?</label>
+                <label class="checkbox"> <input type="checkbox"> Le gustaría recibir novedades de la Barbería Alura?</label>
     
                 <input type="submit" value="Enviar Formulario">
             </div>
