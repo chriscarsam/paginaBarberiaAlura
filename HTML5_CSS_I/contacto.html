@@ -10,7 +10,7 @@
     <body>
         <header>
             <div class="caja">
-                <h1><img src="./assets/productos/logo.png" alt="logo"></h1>
+                <h1><img src="./assets/productos/logo.png" alt="Logo de la Berbería Alura"></h1>
                 <nav>
                     <ul>
                         <li><a href="./index.html">Home</a></li>                    
@@ -34,8 +34,8 @@
             <label for="mensaje">Mensaje</label>
             <textarea id="mensaje" cols="70" rows="10" class="input-padron" required></textarea>
 
-            <div>
-                <p>¿Cómo le gustaría que lo contactemos?</p>
+            <fieldset>
+                <legend>¿Cómo le gustaría que lo contactemos?</legend>
     
                 <label for="radioEmail"><input type="radio" name="contacto" value="email" id="radioEmail">Email</label>                
     
@@ -43,15 +43,16 @@
     
                 <label for="radioWhatsapp"><input type="radio" name="contacto" value="whatsapp" id="radioWhatsapp" checked>WhatsApp</label>    
                 
-            </div>
-            <div>
-                <p>¿En cuál horario prefiere ser atendido?</p>
+            </fieldset>
+
+            <fieldset>
+                <legend>¿En cuál horario prefiere ser atendido?</legend>
                 <select>
                     <option value="">Mañana</option>
                     <option value="">Tarde</option>
                     <option value="">Noche</option>
                 </select>           
-            </div>
+            </fieldset>
 
                 <label class="checkbox"> <input type="checkbox" checked> Le gustaría recibir novedades de la Barbería Alura?</label>
     
@@ -60,7 +61,7 @@
            </form>
         </main> 
         <footer>
-            <img src="./assets/productos/logo-blanco.png" alt="logo-blanco">
+            <img src="./assets/productos/logo-blanco.png" alt="Logo de la Berbería Alura">
             <p class="copyright">&copy Copyright Barbería Alura - 2022</p>
         </footer>
     </body>
