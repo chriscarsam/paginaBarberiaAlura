@@ -23,16 +23,16 @@
         <main>
            <form>
             <label for="nombreApellido">Nombre y Apellido</label>
-            <input type="text" id="nombreApellido" class="input-padron">
+            <input type="text" id="nombreApellido" class="input-padron" required>
             
             <label for="correoElectronico">Correo Electrónico</label>
-            <input type="email" id="correoElectronico" class="input-padron">
+            <input type="email" id="correoElectronico" class="input-padron" placeholder="email@domino.com" required>
             
             <label for="telefono">Teléfono</label>
-            <input type="tel" id="telefono" class="input-padron">
+            <input type="tel" id="telefono" class="input-padron" placeholder="(XX) XXXX XXXX" required>
             
             <label for="mensaje">Mensaje</label>
-            <textarea id="mensaje" cols="70" rows="10" class="input-padron"></textarea>
+            <textarea id="mensaje" cols="70" rows="10" class="input-padron" required></textarea>
 
             <div>
                 <p>¿Cómo le gustaría que lo contactemos?</p>
@@ -41,7 +41,7 @@
     
                 <label for="radioTelefono"><input type="radio" name="contacto" value="telefono" id="radioTelefono">Teléfono</label>                
     
-                <label for="radioWhatsapp"><input type="radio" name="contacto" value="whatsapp" id="radioWhatsapp">WhatsApp</label>    
+                <label for="radioWhatsapp"><input type="radio" name="contacto" value="whatsapp" id="radioWhatsapp" checked>WhatsApp</label>    
                 
             </div>
             <div>
@@ -53,7 +53,7 @@
                 </select>           
             </div>
 
-                <label class="checkbox"> <input type="checkbox"> Le gustaría recibir novedades de la Barbería Alura?</label>
+                <label class="checkbox"> <input type="checkbox" checked> Le gustaría recibir novedades de la Barbería Alura?</label>
     
                 <input type="submit" value="Enviar Formulario">
 
