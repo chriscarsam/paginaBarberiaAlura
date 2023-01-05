@@ -168,6 +168,10 @@ td, th {
     clear: left;
 }
 
+p:first-line {
+    font-style: italic;
+}
+
 .principal p {
     margin: 0 0 1em;
 }
@@ -219,6 +223,10 @@ td, th {
 
 .items {
     line-height: 1.5;
+}
+
+.items:before {
+    content: "😀 ";
 }
 
 .items:first-child {
