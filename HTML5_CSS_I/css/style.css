@@ -154,6 +154,22 @@ td, th {
     width: 100%;
 }
 
+main > p {
+    background: red;
+}
+
+img + p {
+    background: yellow;
+}
+
+img ~ p {
+    background: green;
+}
+
+.principal p:not(#mision) {
+    background: orange;
+}
+
 .principal {
     padding: 3em 0;
     background: #FEFEFE;
@@ -166,10 +182,6 @@ td, th {
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
-}
-
-p:first-line {
-    font-style: italic;
 }
 
 .principal p {
