@@ -165,7 +165,7 @@ td, th {
     text-align: center;
     font-size: 2em;
     margin: 0 0 1em;
-    clear: left;
+    clear: left;    
 }
 
 .principal p {
@@ -231,6 +231,11 @@ td, th {
 
 .imagen-diferenciales {
    width: 60%; 
+   transition: 400ms;
+}
+
+.imagen-diferenciales:hover{
+    opacity: 0.3;
 }
 
 .video {
