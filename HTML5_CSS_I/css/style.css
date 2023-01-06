@@ -259,5 +259,16 @@ td, th {
     .lista-diferenciales, .imagen-diferenciales {
         width: 100%;
     }
+    .productos li{
+        width: 100%;
+        margin: 5px 1.5%;
+    }
+    .productos img{
+        width: 100%;
+    }
+    .input-padron, .enviar {
+        width: 80%;            
+    }    
+  
 }
 
